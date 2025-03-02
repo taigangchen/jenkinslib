@@ -1,5 +1,5 @@
 package org.devops
 
-def printMsg(content) {
+def PrintMes(content) {
   printlin(content)
 }
