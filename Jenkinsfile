@@ -16,6 +16,10 @@ pipeline{
         stage('Build'){
             steps{
                 echo 'Building the project'
+                script{
+                    mvnHome = tool "M2"
+                    sh "${mvnHome}/bin/mvn -v"
+                }
             }
         }
         stage('Test'){
