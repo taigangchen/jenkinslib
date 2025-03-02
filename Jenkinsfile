@@ -27,7 +27,7 @@ pipeline{
             steps{
                 echo 'Deploying the project'
                 script{
-                    tools.printMsg('this is my library')
+                    tools.PrintMes('this is my library')
                 }
             }
         }
